@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@900&display=swap');
+
+body {
+  color: #000;
+  font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  
+  max-width: 960px;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  
+}
+
+header {
+  margin-top: 0;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #222;
+}
+
+
+nav {
+    background-color: #eee;
+    padding: 20px;
+    border: 1px solid #222;
+  }
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  text-align: left;
+  border: 1px solid #222;
+}
+
+section {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+header,
+footer {
+  grid-column: 1 / -1;
+}
+
+figure {
+    margin: 0;
+    overflow: auto;
+    clear: both;
+  }
+
+nav ul {
+    margin-right: 20px;
+}
+
+main {
+  display: grid;
+  max-width: 960px;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas:
+    "intro       intro"
+    "government  geography"
+    "people      people";
+}
+
+#intro {
+  grid-area: intro;
+  border: 1px solid #222;
+}
+
+#geography{
+  grid-area: geography;
+  border: 1px solid #222;
+}
+
+#people-and-society {
+  grid-area: people;
+  border: 1px solid #222;
+}
+
+#government {
+    grid-area: government;
+    border: 1px solid #222;
+  }
