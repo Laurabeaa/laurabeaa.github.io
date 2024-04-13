@@ -9,7 +9,7 @@ body {
   max-width: 960px;
   margin: 20px auto;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   background-color: #fff;
   
@@ -38,14 +38,13 @@ footer {
 }
 
 footer p {
-    margin: 20px;
+  margin: 20px;
 }
 
 section {
   background-color: #eee;
   padding: 20px;
 }
-
 
 figure {
     margin: 0;
@@ -93,24 +92,24 @@ main {
 }
 
 nav li a:hover {
-    color: rgb(20, 200, 35)
+    color: rgb(11, 36, 11)
 }
 
 figcaption a:hover {
-    color: rgb(20, 200, 35)
+    color: rgb(11, 36, 11)
 }
 
 footer a:hover {
-    color: rgb(20, 200, 35)
+    color: rgb(11, 36, 11)
 }
 
 
 #government p a:hover {
-    color: rgb(20, 200, 35)
+    color: rgb(11, 36, 11)
 }
 
 #geography p a:hover {
-    color: rgb(20, 200, 35)
+    color: rgb(11, 36, 11)
 }
 
 
