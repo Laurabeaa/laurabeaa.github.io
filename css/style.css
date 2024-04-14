@@ -102,23 +102,23 @@ main {
 }
 
 nav li a:hover {
-    color: rgb(0, 0, 139);
+    color: rgb(182, 69, 127);
 }
 
 figcaption a:hover {
-    color: rgb(0, 0, 139);
+    color: rgb(182, 69, 127);
 }
 
 footer a:hover {
-    color: rgb(0, 0, 139);
+    color: rgb(182, 69, 127);
 }
 
 #government p a:hover {
-    color: rgb(0, 0, 139);
+    color: rgb(182, 69, 127);
 }
 
 #geography p a:hover {
-    color: rgb(0, 0, 139);
+    color: rgb(182, 69, 127);
 }
 
 nav li a:active {
