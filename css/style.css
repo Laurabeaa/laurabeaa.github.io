@@ -59,7 +59,7 @@ nav ul {
 main {
   display: grid;
   max-width: 960px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr ;
   grid-gap: 20px;
   grid-template-areas:
     "intro       intro"
