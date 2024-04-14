@@ -20,20 +20,20 @@ body {
 header {
   margin-top: 0;
   text-align: center;
-  background-color: #eee;
+  background-color: #e5e9dd;
   border: 1px solid #222;
   grid-column: 1 / -1;
 }
 
 
 nav {
-    background-color: #eee;
+    background-color: #e5e9dd;
     padding: 20px;
     border: 1px solid #222;
   }
 
 footer {
-  background-color: #eee;
+  background-color: #e5e9dd;
   padding: 20px;
   border: 1px solid #222;
   grid-column: 1 / -1;
@@ -44,7 +44,7 @@ footer p {
 }
 
 section {
-  background-color: #eee;
+  background-color: #e5e9dd;
   padding: 20px;
 }
 
@@ -59,7 +59,7 @@ nav ul {
 main {
   display: grid;
   max-width: 960px;
-  grid-template-columns: 1fr 1fr ;
+  grid-template-columns: repeat (2, 1fr);
   grid-gap: 20px;
   grid-template-areas:
     "intro       intro"
@@ -102,41 +102,51 @@ main {
 }
 
 nav li a:hover {
-    color: rgb(11, 36, 11)
+    color: rgb(0, 0, 139);
 }
 
 figcaption a:hover {
-    color: rgb(11, 36, 11)
+    color: rgb(0, 0, 139);
 }
 
 footer a:hover {
-    color: rgb(11, 36, 11)
+    color: rgb(0, 0, 139);
 }
 
 #government p a:hover {
-    color: rgb(11, 36, 11)
+    color: rgb(0, 0, 139);
 }
 
 #geography p a:hover {
-    color: rgb(11, 36, 11)
+    color: rgb(0, 0, 139);
 }
 
 nav li a:active {
-    color: #FFB6C1;
+    color: #8B0000;
 }
 
 figcaption a:active {
-    color: #FFB6C1;
+    color: #8B0000;
 }
 
 footer a:active {
-    color: #FFB6C1;
+    color: #8B0000;
 }
 
 #government p a:active {
-    color: #FFB6C1;
+    color: #8B0000;
 }
 
 #geography p a:active {
-    color: #FFB6C1;
+    color: #8B0000;
+}
+
+h1,
+h2 {
+  color: #580000;
+}
+
+h3,
+h4 {
+  color: #8b4513;
 }
