@@ -8,10 +8,12 @@ body {
   
   max-width: 960px;
   margin: 20px auto;
+  
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 20px;
   background-color: #fff;
+  line-height: 1.5;
   
 }
 
@@ -38,7 +40,7 @@ footer {
 }
 
 footer p {
-  margin: 20px;
+  margin: 0px;
 }
 
 section {
@@ -48,8 +50,6 @@ section {
 
 figure {
     margin: 0;
-    overflow: auto;
-    clear: both;
   }
 
 nav ul {
@@ -70,25 +70,35 @@ main {
 #intro {
   grid-area: intro;
   border: 1px solid #222;
-  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #geography {
   grid-area: geography;
   border: 1px solid #222;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #people-and-society {
   grid-area: people;
   border: 1px solid #222;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 #government {
   grid-area: government;
   border: 1px solid #222;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 nav li a:hover {
@@ -103,7 +113,6 @@ footer a:hover {
     color: rgb(11, 36, 11)
 }
 
-
 #government p a:hover {
     color: rgb(11, 36, 11)
 }
@@ -111,7 +120,6 @@ footer a:hover {
 #geography p a:hover {
     color: rgb(11, 36, 11)
 }
-
 
 nav li a:active {
     color: #FFB6C1;
@@ -124,7 +132,6 @@ figcaption a:active {
 footer a:active {
     color: #FFB6C1;
 }
-
 
 #government p a:active {
     color: #FFB6C1;
