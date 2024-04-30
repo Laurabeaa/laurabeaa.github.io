@@ -72,6 +72,7 @@ h2 {
 
 #greece-page {
   color: #000;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400px;
   font-size: 16px;
   
@@ -111,6 +112,7 @@ h2 {
 
 #estonia-page {
   color: #000;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400px;
   font-size: 16px;
   
@@ -186,25 +188,38 @@ footer a:active {
   color: #0b3d07;
 }
 
-#main-page h1, 
-h2 {
-  color: #380e1e;
-  }
-#greece-page h1,
-h2 {
+
+
+#main-page h1 {
   color: #380e1e;
   }
 
-#estonia-page h1,
-h2 {
-color: #380e1e;
+#greece h2,
+#favorite-cities h2,
+#welcome h2,
+#estonia h2 {
+  color: #380e1e;
+  }
+
+
+#key-points h3 {
+  color: #7f2104;
 }
 
-#main-page h3,
+#favorite-cities h3,
 h4 {
 color: #7f2104;
 }
 
+#greece-page h1 {
+  color: #380e1e;
+  }
+
 #greece-page h3 {
-color: #7f2104;
+  color: #7f2104;
+  }
+
+#estonia-page h1 {
+color: #380e1e;
 }
+
