@@ -25,10 +25,7 @@
   background-color: #fff1f4;
   border: 1px none;
   grid-column: 1 / -1;
-  color: rgba(247, 5, 5, 0.185)
 }
-
-
 
 nav {
     background-color: #fff1f4;
@@ -36,19 +33,33 @@ nav {
     border: 1px none;
   }
 
-section {
+footer {
+  background-color: #fff1f4;
+  padding: 20px;
+  border: 1px solid #222;
+  grid-column: 1 / -1;
+  }
+
+footer p {
+  margin: 0px;
+}
+
+#main-page section,
+#greece-page section,
+#estonia-page section {
   background-color: #fff1f4;
   padding: 20px;
   border: 1px none;
+}
+
+img {
+  border: 0.5px solid #222;
 }
 
 nav ul {
     margin-right: 5px;
 }
 
-h2 {
-    text-align: left;
-}
 
 #welcome {
   grid-area: welcome;
@@ -81,6 +92,7 @@ h2 {
   
   display: grid;
   grid-template-columns: auto;
+  grid-template-rows: auto;
   grid-gap: 20px;
   background-color: #fff;
   line-height: 1.5;
@@ -91,10 +103,13 @@ h2 {
   color: #000;
   
   display: grid;
+  max-width: 960px;
+  grid-template-columns: repeat (2, 1fr);
+  grid-gap: 20px;
   grid-template-areas:
   "favorite-cities  overview"
-  "favorite-cities  overview";
-  grid-gap: 20px;
+  "favorite-cities  overview"
+  "footer           footer";
   
 }
 
@@ -110,6 +125,17 @@ h2 {
 
 }
 
+#overview {
+  grid-area: overview;
+  border: 1px solid none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
 #estonia-page {
   color: #000;
   font-family: "Roboto", "Helvetica", "Arial", sans-serif;
@@ -121,6 +147,7 @@ h2 {
   
   display: grid;
   grid-template-columns: auto;
+  grid-template-rows: auto;
   grid-gap: 20px;
   background-color: #fff;
   line-height: 1.5;
@@ -131,12 +158,50 @@ h2 {
   color: #000;
   
   display: grid;
+  max-width: 960px;
+  grid-template-columns: repeat (2, 1fr);
   grid-template-areas:
-  "favorite-cities  overview"
-  "favorite-cities  overview";
+  "estonia          estonia"
+  "estonia-culture  estonia-culture"
+  "footer           footer";
   grid-gap: 20px;
   
 }
+
+#estonia {
+  grid-area: estonia;
+  border: 1px solid none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+#estonia-culture {
+  grid-area: estonia-culture;
+  border: 1px solid none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+
+}
+
+.footer {
+  grid-area: footer;
+  border: 1px solid none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  grid-row-start: 3;
+
+
+}
+
 
 nav li a:default {
   color: rgb(67, 67, 230);
