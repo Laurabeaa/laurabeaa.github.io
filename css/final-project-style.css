@@ -35,12 +35,8 @@ nav {
 
 footer {
   background-color: #fff1f4;
-  padding: 20px;
-  border: 1px solid #222;
-  grid-column: 1 / -1;
-  }
-
-footer p {
+  padding: 15px;
+  border: 1px none;
   margin: 0px;
 }
 
@@ -104,35 +100,19 @@ nav ul {
   
   display: grid;
   max-width: 960px;
-  grid-template-columns: repeat (2, 1fr);
+  grid-template-columns: auto;
+  grid-template-rows: auto;
   grid-gap: 20px;
-  grid-template-areas:
-  "favorite-cities  overview"
-  "favorite-cities  overview"
-  "footer           footer";
   
 }
 
 #favorite-cities {
-  grid-area: favorite-cities;
   border: 1px solid none;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   grid-row-start: 1;
-
-
-}
-
-#overview {
-  grid-area: overview;
-  border: 1px solid none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
 
 }
 
@@ -159,46 +139,8 @@ nav ul {
   
   display: grid;
   max-width: 960px;
-  grid-template-columns: repeat (2, 1fr);
-  grid-template-areas:
-  "estonia          estonia"
-  "estonia-culture  estonia-culture"
-  "footer           footer";
-  grid-gap: 20px;
-  
-}
-
-#estonia {
-  grid-area: estonia;
-  border: 1px solid none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-
-}
-
-#estonia-culture {
-  grid-area: estonia-culture;
-  border: 1px solid none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-
-}
-
-.footer {
-  grid-area: footer;
-  border: 1px solid none;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  grid-row-start: 3;
-
+  grid-template-columns: auto;
+  grid-template-rows: auto;
 
 }
 
