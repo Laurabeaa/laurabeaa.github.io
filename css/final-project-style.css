@@ -1,5 +1,6 @@
-body {
+#main-page {
   color: #000;
+  font-weight: 400px;
   font-size: 16px;
   
   max-width: 960px;
@@ -7,7 +8,6 @@ body {
   
   display: grid;
   grid-template-columns: 150px 1fr;
-  grid-template-rows: auto;
   grid-gap: 20px;
   background-color: #fff;
   line-height: 1.5;
@@ -17,21 +17,22 @@ body {
 header {
   margin-top: 0;
   text-align: center;
-  background-color: #ffbdb6;
-  border: 1px solid none;
+  background-color: #fff1f4;
+  border: 1px none;
   grid-column: 1 / -1;
 }
 
+
 nav {
     background-color: #fff1f4;
-    padding: 20px;
-    border: 1px solid none;
+    padding: 15px;
+    border: 1px none;
   }
 
 section {
   background-color: #fff1f4;
   padding: 20px;
-  border: 1px solid none;
+  border: 1px none;
 }
 
 nav ul {
@@ -41,7 +42,6 @@ nav ul {
 h2 {
     text-align: left;
 }
-
 
 #welcome {
   grid-area: welcome;
@@ -61,4 +61,70 @@ h2 {
   padding-bottom: 10px;
   margin-top: 20px;
 
+}
+
+#greece-page {
+  color: #000;
+  font-weight: 400px;
+  font-size: 16px;
+  
+  max-width: 960px;
+  margin: 20px auto;
+  
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+  background-color: #fff;
+  line-height: 1.5;
+  
+}
+
+#greece {
+  color: #000;
+  
+  display: grid;
+  grid-template-areas:
+  "favorite-cities  overview"
+  "favorite-cities  overview";
+  grid-gap: 20px;
+  
+}
+
+#favorite-cities {
+  grid-area: favorite-cities;
+  border: 1px solid none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  grid-row-start: 1;
+
+
+}
+
+#estonia-page {
+  color: #000;
+  font-weight: 400px;
+  font-size: 16px;
+  
+  max-width: 960px;
+  margin: 20px auto;
+  
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+  background-color: #fff;
+  line-height: 1.5;
+  
+}
+
+#estonia {
+  color: #000;
+  
+  display: grid;
+  grid-template-areas:
+  "favorite-cities  overview"
+  "favorite-cities  overview";
+  grid-gap: 20px;
+  
 }
