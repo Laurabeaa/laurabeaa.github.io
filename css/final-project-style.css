@@ -17,7 +17,9 @@
   
 }
 
-header {
+#main-page header,
+#greece-page header,
+#estonia-page header {
   margin-top: 0;
   text-align: center;
   background-color: #fff1f4;
