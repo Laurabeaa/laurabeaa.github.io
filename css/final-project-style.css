@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@400;500&display=swap');
+
 #main-page {
   color: #000;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
   font-weight: 400px;
   font-size: 16px;
   
@@ -127,4 +130,65 @@ h2 {
   "favorite-cities  overview";
   grid-gap: 20px;
   
+}
+
+nav li a:default {
+  color: rgb(67, 67, 230);
+}
+
+figcaption a:hover {
+  color:  rgb(67, 67, 230);
+}
+
+footer a:hover {
+  color: rgb(67, 67, 230);
+
+}
+
+
+nav li a:active {
+  color: rgb(3, 0, 2);
+}
+
+figcaption a:active {
+  color:  rgb(3, 0, 2);
+}
+
+footer a:active {
+  color: rgb(3, 0, 2);
+
+}
+
+nav li a:hover {
+  color: rgb(116, 34, 187);
+}
+
+figcaption a:hover {
+  color:  rgb(116, 34, 187);
+}
+
+footer a:hover {
+  color: rgb(116, 34, 187);
+}
+
+nav li a:active {
+  color: #0b3d07;
+}
+
+figcaption a:active {
+  color: #0b3d07;
+}
+
+footer a:active {
+  color: #0b3d07;
+}
+
+h1,
+h2 {
+color: #380e1e;
+}
+
+h3,
+h4 {
+color: #7f2104;
 }
