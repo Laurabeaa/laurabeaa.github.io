@@ -23,7 +23,9 @@ header {
   background-color: #fff1f4;
   border: 1px none;
   grid-column: 1 / -1;
+  color: rgba(247, 5, 5, 0.185)
 }
+
 
 
 nav {
@@ -136,15 +138,14 @@ nav li a:default {
   color: rgb(67, 67, 230);
 }
 
-figcaption a:hover {
+figcaption a:default {
   color:  rgb(67, 67, 230);
 }
 
-footer a:hover {
+footer a:default {
   color: rgb(67, 67, 230);
 
 }
-
 
 nav li a:active {
   color: rgb(3, 0, 2);
@@ -202,14 +203,6 @@ h4 {
 color: #7f2104;
 }
 
-
-#greece-page h3,
-h4 {
-color: #7f2104;
-}
-
-
-#estonia-page h3,
-h4 {
+#greece-page h3 {
 color: #7f2104;
 }
