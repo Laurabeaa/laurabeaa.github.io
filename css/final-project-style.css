@@ -86,19 +86,20 @@ nav ul {
   color: #000;
   
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  grid-template-areas:
-  "favorite-cities  overview"
-  "favorite-cities  overview"
-  "footer          footer";
-
   grid-gap: 20px;
-  
+}
+
+footer {
+  grid-area: footer;
+  background-color: #fff1f4;
+  padding: 10px;
+  border: none;
+  grid-column: 1 / -1;
 }
 
 #favorite-cities {
-  grid-area: favorite-cities;
   border: 1px solid none;
   padding-left: 20px;
   padding-right: 20px;
@@ -109,88 +110,37 @@ nav ul {
 
 }
 
-nav li a:default {
-  color: rgb(67, 67, 230);
+#estonia-page {
+  color: #000;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  
+  max-width: 960px;
+  margin: 20px auto;
+  
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  background-color: #fff;
+  line-height: 1.5;
 }
 
-figcaption a:default {
-  color:  rgb(67, 67, 230);
+#estonia {
+  color: #000;
+  
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
 }
 
-footer a:default {
-  color: rgb(67, 67, 230);
-
+figure {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
-nav li a:active {
-  color: rgb(3, 0, 2);
+figcaption {
+  margin-top: 5px;
 }
-
-figcaption a:active {
-  color:  rgb(3, 0, 2);
-}
-
-footer a:active {
-  color: rgb(3, 0, 2);
-
-}
-
-nav li a:hover {
-  color: rgb(116, 34, 187);
-}
-
-figcaption a:hover {
-  color:  rgb(116, 34, 187);
-}
-
-footer a:hover {
-  color: rgb(116, 34, 187);
-}
-
-nav li a:active {
-  color: #0b3d07;
-}
-
-figcaption a:active {
-  color: #0b3d07;
-}
-
-footer a:active {
-  color: #0b3d07;
-}
-
-
-
-#main-page h1 {
-  color: #380e1e;
-  }
-
-#greece h2,
-#favorite-cities h2,
-#welcome h2,
-#estonia h2 {
-  color: #380e1e;
-  }
-
-
-#key-points h3 {
-  color: #7f2104;
-}
-
-#favorite-cities h3,
-h4 {
-color: #7f2104;
-}
-
-#greece-page h1 {
-  color: #380e1e;
-  }
-
-#greece-page h3 {
-  color: #7f2104;
-  }
-
-#estonia-page h1 {
-color: #380e1e;
-}
-
