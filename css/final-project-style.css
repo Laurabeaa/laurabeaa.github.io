@@ -79,6 +79,7 @@ nav ul {
   grid-gap: 20px;
   background-color: #fff;
   line-height: 1.5;
+
   
 }
 
@@ -86,29 +87,41 @@ nav ul {
   color: #000;
   
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  max-width: 960px;
+  grid-template-columns: 465px 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
+
 }
 
-footer {
-  grid-area: footer;
-  background-color: #fff1f4;
-  padding: 10px;
-  border: none;
-  grid-column: 1 / -1;
-}
 
 #favorite-cities {
   border: 1px solid none;
   padding-left: 20px;
   padding-right: 20px;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
-  grid-row-start: 1;
-
+  grid-row-end: 1;
 
 }
+
+#footer {
+  background-color: #fff1f4;
+  border: none;
+  padding: 10px;
+  grid-column: 1 / -1;
+  grid-gap: none;
+  margin-top: -20px;
+}
+
+footer {
+  background-color: #fff1f4;
+  border: none;
+  padding: 10px;
+  grid-column: 1 / -1;
+  grid-gap: none;
+}
+
 
 #estonia-page {
   color: #000;
@@ -139,7 +152,9 @@ footer {
 figure {
   margin-left: 10px;
   margin-right: 10px;
+
 }
+
 
 figcaption {
   margin-top: 5px;
