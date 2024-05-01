@@ -155,7 +155,80 @@ figure {
 
 }
 
-
 figcaption {
   margin-top: 5px;
+}
+
+
+nav li a:default {
+  color: rgb(6, 37, 71);
+}
+
+figcaption a:default {
+  color:rgb(6, 37, 71);
+}
+
+footer a:default {
+  color: rgb(6, 37, 71);
+}
+
+#favorite-cities p a:default {
+  color: rgb(6, 37, 71);
+
+}
+
+nav li a:hover {
+  color: rgb(107, 35, 184);
+}
+
+figcaption a:hover {
+  color:rgb(107, 35, 184);
+}
+
+footer a:hover {
+  color: rgb(107, 35, 184);
+}
+
+#favorite-cities p a:hover {
+  color: rgb(107, 35, 184);
+}
+
+nav li a:active {
+  color: #053e05;
+}
+
+figcaption a:active {
+  color: #053e05;
+}
+
+footer a:active {
+  color: #053e05;
+}
+
+#favorite-cities p a:active {
+  color: #053e05;
+}
+
+
+
+#main-page h1, h2 {
+  color: #140c30;
+}
+
+
+#greece-page h1, h2 {
+  color: #140c30;
+}
+
+
+#estonia-page h1, h2 {
+  color: #140c30;
+}
+
+#main-page h3{
+  color: #061c11;
+}
+
+#greece-page h3 {
+  color: #061c11;
 }
