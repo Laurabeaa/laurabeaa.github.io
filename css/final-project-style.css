@@ -209,26 +209,18 @@ footer a:active {
   color: #053e05;
 }
 
-
-
-#main-page h1, h2 {
-  color: #140c30;
+body h1 {
+  color: #271a5a;
 }
 
-
-#greece-page h1, h2 {
-  color: #140c30;
+main h2 {
+  color:#361a07
 }
 
-
-#estonia-page h1, h2 {
-  color: #140c30;
+main h3 {
+  color: #8b4513;
 }
 
-#main-page h3{
-  color: #061c11;
-}
-
-#greece-page h3 {
-  color: #061c11;
+body #greece-page h1 {
+  color: #271a5a;
 }
