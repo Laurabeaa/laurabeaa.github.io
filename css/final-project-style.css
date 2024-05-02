@@ -177,6 +177,12 @@ footer a:default {
 
 }
 
+
+#estonia p a:default {
+  color: rgb(6, 37, 71);
+
+}
+
 nav li a:hover {
   color: rgb(107, 35, 184);
 }
@@ -193,6 +199,12 @@ footer a:hover {
   color: rgb(107, 35, 184);
 }
 
+
+#estonia p a:hover {
+  color: rgb(107, 35, 184);
+}
+
+
 nav li a:active {
   color: #053e05;
 }
@@ -206,6 +218,10 @@ footer a:active {
 }
 
 #favorite-cities p a:active {
+  color: #053e05;
+}
+
+#estonia p a:active {
   color: #053e05;
 }
 
