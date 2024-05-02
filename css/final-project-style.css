@@ -122,6 +122,15 @@ footer {
   grid-gap: none;
 }
 
+#estonia-page footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#greece-page footer p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 #estonia-page {
   color: #000;
