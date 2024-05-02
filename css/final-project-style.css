@@ -177,6 +177,10 @@ figcaption a:default {
   color:rgb(6, 37, 71);
 }
 
+figcaption a:default {
+  color:rgb(6, 37, 71);
+}
+
 footer a:default {
   color: rgb(6, 37, 71);
 }
@@ -186,8 +190,12 @@ footer a:default {
 
 }
 
-
 #estonia p a:default {
+  color: rgb(6, 37, 71);
+
+}
+
+#greece p a:default {
   color: rgb(6, 37, 71);
 
 }
@@ -208,9 +216,12 @@ footer a:hover {
   color: rgb(107, 35, 184);
 }
 
-
 #estonia p a:hover {
   color: rgb(107, 35, 184);
+}
+
+#greece p a:hover {
+ color: rgb(107, 35, 184);
 }
 
 
@@ -233,6 +244,11 @@ footer a:active {
 #estonia p a:active {
   color: #053e05;
 }
+
+#greece p a:active {
+  color: #053e05;
+}
+
 
 body h1 {
   color: #271a5a;
